@@ -1,0 +1,13 @@
+{
+  "draft": true,
+  "packages": {
+    ".": {
+      "release-type": "node"
+    },
+    "projects/my-project": {
+      "release-type": "simple",
+      "version-file": "version.text",
+      "packahe-name": "my-project"
+    }
+  }
+}
