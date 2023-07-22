@@ -6,9 +6,14 @@
     },
     "projects/my-project": {
       "release-type": "simple",
-      "version-file": "version.json",
-      "jsonpath": "$.version",
-      "package-name": "my-project"
+      "package-name": "my-project",
+      "extra-files": [
+        {
+          "type": "json",
+          "path": "version.json",
+          "jsonpath": "$.version"
+        }
+      ]
     }
   }
 }
