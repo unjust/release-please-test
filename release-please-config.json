@@ -1,9 +1,7 @@
 {
   "draft": true,
   "packages": {
-    ".": {
-      "release-type": "simple"
-    },
+    ".": {},
     "projects/my-project": {
       "package-name": "my-project",
       "extra-files": [
